@@ -1,10 +1,9 @@
 import React from 'react';
-import HelloWorld from '../components/hello-world';
 
 export default function Home(props) {
   return (
-    <div>
-      <HelloWorld />
+    <div className='py-3'>
+      <h1 className='text-center'>Journal Entries</h1>
     </div>
   );
 }
